@@ -7,7 +7,7 @@ st.title("💼 고용지원금 진단")
 tabs = st.tabs(["청년일자리도약장려금", "두루누리 사회보험료 지원"])
 
 with tabs[0]:
-    st.header("청년일자리도약장려금 자가진단")
+    st.header("청년일자리도약장려금")
     st.markdown("이 대시보드는 **사업주**가 청년일자리도약장려금 **지원 대상**인지 단계별로 확인할 수 있도록 돕습니다.")
 
     if "step" not in st.session_state:
