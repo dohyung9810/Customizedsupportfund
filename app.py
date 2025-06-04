@@ -115,7 +115,7 @@ with tabs[0]:
                 st.rerun()
 
 with tabs[1]:
-    st.header("두루누리 사회보험료 지원 자가진단")
+    st.header("두루누리 사회보험료 지원")
     st.markdown("신규 가입자에게 고용보험과 국민연금 보험료의 일부를 지원하는 제도입니다.")
 
     with st.form("두루누리"):
